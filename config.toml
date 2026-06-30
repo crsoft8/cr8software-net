@@ -1,0 +1,82 @@
+baseURL = "https://cr8software.net/"
+languageCode = "en-us"
+title = "Cr8software"
+theme = "almanac"
+uglyURLs = true
+
+[params]
+  description = "A niche software website focused on barcode tools, ID card printing software, font editing, and practical desktop applications for business and technical use."
+  niche = "A niche software website focused on barcode tools, ID card printing software, font editing, and practical desktop applications for business and technical use."
+  founded_year = 2026
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[[menu.main]]
+  name = "Type Light Font Editor"
+  url = "/typelight.html"
+  weight = 10
+
+[[menu.main]]
+  name = "Type Light Font Editor"
+  url = "/typelight.html"
+  weight = 20
+
+[[menu.main]]
+  name = "Type Font Editor"
+  url = "/type.html"
+  weight = 30
+
+[[menu.main]]
+  name = "Type Font Editor"
+  url = "/type.html"
+  weight = 40
+
+[[menu.footer]]
+  name = "Type Font Editor"
+  url = "/typex.html"
+  weight = 10
+
+[[menu.footer]]
+  name = "Type Font Editor"
+  url = "/typex.html"
+  weight = 20
+
+[[menu.footer]]
+  name = "unknown"
+  url = "/soccer/soccer-ball-photos.html"
+  weight = 30
+
+[[menu.footer]]
+  name = "unknown"
+  url = "/soccer/soccer-ball-photos.html"
+  weight = 40
+
+[[menu.footer]]
+  name = "TTHmachine Converter"
+  url = "/tthmachine.html"
+  weight = 50
+
+[[menu.footer]]
+  name = "TTHmachine Converter"
+  url = "/tthmachine.html"
+  weight = 60
+
+[[menu.legal]]
+  name = "About"
+  url = "/about.html"
+  weight = 10
+
+[[menu.legal]]
+  name = "Privacy Policy"
+  url = "/privacy-policy.html"
+  weight = 20
+
+[[menu.legal]]
+  name = "Disclaimer"
+  url = "/disclaimer.html"
+  weight = 30

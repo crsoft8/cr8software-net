@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">{{ end }}
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.65;color:#1f2937;background:#fff;max-width:860px;margin:0 auto;padding:24px 24px 48px}
+h1{font-size:2.2em;line-height:1.15;margin-bottom:.6em;color:#111827;font-weight:700;letter-spacing:-0.02em}
+h2{font-size:1.45em;margin:2em 0 .7em;color:#111827;font-weight:600;letter-spacing:-0.01em}
+h3{font-size:1.15em;margin:1.4em 0 .4em;font-weight:600}
+p{margin-bottom:1em}
+a{color:#4f46e5;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
+a:hover{border-bottom-color:#4f46e5}
+ul,ol{margin:0 0 1em 1.4em}li{margin-bottom:.4em}
+.hero-img{width:100%;height:auto;border:1px solid #e5e7eb;border-radius:2px;margin-bottom:1.5em;display:block}
+header{background:#f9fafb;border:1px solid #e5e7eb;padding:14px 18px;margin-bottom:36px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+header .brand{color:#111827;font-weight:700;font-size:1.1em;letter-spacing:-0.01em;border:none}
+header nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
+header nav a{font-size:.92em;color:#4b5563;font-weight:500;border:none}
+header nav a:hover{color:#4f46e5}
+.articles-list{list-style:none;padding:0;margin-top:16px}
+.articles-list li{margin-bottom:18px;padding:16px;border:1px solid #e5e7eb;border-radius:4px;transition:border-color .15s}
+.articles-list li:hover{border-color:#4f46e5}
+.articles-list a{font-size:1.05em;font-weight:600;border:none}
+.articles-list p{font-size:.9em;color:#6b7280;margin:6px 0 0}
+.section-divider{margin:48px 0 28px;border:none;border-top:1px solid #e5e7eb}
+footer{margin-top:56px;padding:24px 0;border-top:1px solid #e5e7eb;font-size:.88em;color:#6b7280;text-align:center}
+footer h4{display:none}
+footer .footer-block a{display:inline;margin:0 10px;color:#6b7280;border:none}
+footer .footer-block a:hover{color:#4f46e5}
+.copyright{padding-top:14px;margin-top:14px;font-size:.82em;color:#9ca3af}
+@media(max-width:600px){body{padding:16px}h1{font-size:1.6em}header{flex-direction:column;align-items:flex-start;gap:12px}header nav{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header>
+<a href="/" class="brand">{{ .Site.Title }}</a>
+<nav>
+{{ range .Site.Menus.main }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}
+{{ with where .Site.RegularPages "Section" "blog" }}{{ if . }}<a href="/blog/">Blog</a>{{ end }}{{ end }}
+</nav>
+</header>
+<main>{{ block "main" . }}{{ end }}</main>
+<footer>
+<div class="footer-block">{{ range .Site.Menus.footer }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
+<div class="footer-block">{{ range .Site.Menus.legal }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
+<div class="copyright">© {{ if ne (printf "%d" .Site.Params.founded_year) (printf "%d" now.Year) }}{{ .Site.Params.founded_year }}–{{ now.Year }}{{ else }}{{ now.Year }}{{ end }} {{ .Site.Title }}</div>
+</footer>
+</body>
+</html>
