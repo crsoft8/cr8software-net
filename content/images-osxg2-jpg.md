@@ -2,7 +2,7 @@
 title: "/images/osxg2.jpg"
 description: ""
 url: "/images/osxg2.jpg.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 998.3
 image: "/images/images-osxg2-jpg.jpg"
 ---

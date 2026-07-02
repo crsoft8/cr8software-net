@@ -2,7 +2,7 @@
 title: "Type 3.2 - Professional Font Editor Software"
 description: "Type 3.2 font editor from CR8 Software offers professional TrueType and OpenType editing with kerning, hinting, and OpenType features at £149-£199—one-quarter t"
 url: "/type.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 909
 image: "/images/type.jpg"
 ---

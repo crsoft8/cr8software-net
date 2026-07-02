@@ -2,7 +2,7 @@
 title: "/travel-reviews.html"
 description: "Discover which barcode software and font tools actually work offline during travel. Tested solutions for generating labels at conferences, remote sites, and int"
 url: "/travel-reviews.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 978
 image: "/images/travel-reviews.jpg"
 ---

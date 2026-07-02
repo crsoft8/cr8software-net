@@ -2,7 +2,7 @@
 title: "/article010.html"
 description: "CR8 Software Solutions offers Windows font editors and vector conversion tools with one-time pricing. Review of Type 3.2, Type Light, and CR8tracer for designer"
 url: "/article010.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 984
 image: "/images/article010.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Desktop Software Tools for Design, Typography, and Development"
 description: "Desktop software for font editing, bitmap-to-vector conversion, and specialized design utilities. Practical reviews of native applications for typography, barco"
-date: 2026-06-30
+date: 2026-07-02
 image: "/images/homepage.jpg"
 ---
 

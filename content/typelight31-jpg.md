@@ -2,7 +2,7 @@
 title: "/typelight31.jpg"
 description: "Learn calligraphic font design techniques using modern font editors. Master vector control, bitmap tracing, OpenType features, kerning, and cross-platform testi"
 url: "/typelight31.jpg.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 962
 image: "/images/typelight31-jpg.jpg"
 ---

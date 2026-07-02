@@ -2,7 +2,7 @@
 title: "CR8 Software Support - Help & Documentation"
 description: "CR8 Software support guide covering forums, documentation, troubleshooting for Type 3.2 and Type light font editors, plus barcode tools contact options and comm"
 url: "/support.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 990
 image: "/images/support.jpg"
 ---

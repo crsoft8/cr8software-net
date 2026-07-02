@@ -2,7 +2,7 @@
 title: "/typelightsetup.exe"
 description: "typelightsetup.exe is the 1.2MB Windows installer for Type Light 3.1 font editor from CR8 Software. Learn how to fix SmartScreen warnings, antivirus false posit"
 url: "/typelightsetup.exe.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 998.7
 image: "/images/typelightsetup-exe.jpg"
 ---

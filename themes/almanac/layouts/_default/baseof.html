@@ -9,46 +9,67 @@
 {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image }}">{{ end }}
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.65;color:#1f2937;background:#fff;max-width:860px;margin:0 auto;padding:24px 24px 48px}
-h1{font-size:2.2em;line-height:1.15;margin-bottom:.6em;color:#111827;font-weight:700;letter-spacing:-0.02em}
-h2{font-size:1.45em;margin:2em 0 .7em;color:#111827;font-weight:600;letter-spacing:-0.01em}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.65;color:#1f2937;background:#fff;margin:0;padding:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+h1{font-size:2em;line-height:1.2;margin:0 0 8px;color:#0f172a;font-weight:700;letter-spacing:-0.02em}
+h2{font-size:1.4em;margin:1.6em 0 .6em;color:#0f172a;font-weight:700;font-style:italic;border-bottom:1px solid #e5e7eb;padding-bottom:8px}
 h3{font-size:1.15em;margin:1.4em 0 .4em;font-weight:600}
 p{margin-bottom:1em}
-a{color:#4f46e5;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
-a:hover{border-bottom-color:#4f46e5}
+a{color:#0ea5e9;text-decoration:none}
+a:hover{color:#0284c7;text-decoration:underline}
 ul,ol{margin:0 0 1em 1.4em}li{margin-bottom:.4em}
-.hero-img{width:100%;height:auto;border:1px solid #e5e7eb;border-radius:2px;margin-bottom:1.5em;display:block}
-header{background:#f9fafb;border:1px solid #e5e7eb;padding:14px 18px;margin-bottom:36px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
-header .brand{color:#111827;font-weight:700;font-size:1.1em;letter-spacing:-0.01em;border:none}
-header nav{display:flex;gap:18px;flex:1;flex-wrap:wrap}
-header nav a{font-size:.92em;color:#4b5563;font-weight:500;border:none}
-header nav a:hover{color:#4f46e5}
-.articles-list{list-style:none;padding:0;margin-top:16px}
-.articles-list li{margin-bottom:18px;padding:16px;border:1px solid #e5e7eb;border-radius:4px;transition:border-color .15s}
-.articles-list li:hover{border-color:#4f46e5}
-.articles-list a{font-size:1.05em;font-weight:600;border:none}
-.articles-list p{font-size:.9em;color:#6b7280;margin:6px 0 0}
-.section-divider{margin:48px 0 28px;border:none;border-top:1px solid #e5e7eb}
-footer{margin-top:56px;padding:24px 0;border-top:1px solid #e5e7eb;font-size:.88em;color:#6b7280;text-align:center}
-footer h4{display:none}
-footer .footer-block a{display:inline;margin:0 10px;color:#6b7280;border:none}
-footer .footer-block a:hover{color:#4f46e5}
-.copyright{padding-top:14px;margin-top:14px;font-size:.82em;color:#9ca3af}
-@media(max-width:600px){body{padding:16px}h1{font-size:1.6em}header{flex-direction:column;align-items:flex-start;gap:12px}header nav{flex-wrap:wrap}}
+header.site-header{background:#fff;border-bottom:1px solid #e5e7eb;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
+header .brand{color:#1e3a8a;font-weight:700;font-size:1.25em;letter-spacing:-0.02em;text-decoration:none}
+header .brand:hover{text-decoration:none;color:#1e40af}
+header nav{display:flex;gap:24px;flex-wrap:wrap}
+header nav a{font-size:.9em;color:#6b7280;font-weight:500;padding-bottom:4px;border-bottom:2px solid transparent;transition:all .15s}
+header nav a:hover{color:#1e3a8a;text-decoration:none}
+header nav a.active{color:#1e3a8a;font-weight:700;border-bottom-color:#0ea5e9}
+.hero{background:#f8fafc;border:1px solid #e5e7eb;margin:20px 0;padding:32px;border-radius:4px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.hero-img{width:100%;height:auto;background:#fff;border:1px solid #e5e7eb;display:block}
+.hero-content h1{border-bottom:1px solid #e5e7eb;padding-bottom:12px;font-size:2.6em}
+.tagline{font-style:italic;font-size:1.15em;color:#475569;margin:12px 0 16px}
+.cta{display:inline-block;background:#84cc16;color:#fff;padding:10px 22px;font-size:.85em;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:2px;text-decoration:none;transition:background .15s}
+.cta:hover{background:#65a30d;color:#fff;text-decoration:none}
+.two-col{display:grid;grid-template-columns:2fr 1fr;gap:32px;padding:12px 0 24px}
+.sidebar h3{font-size:1.1em;font-style:italic;margin:0 0 10px;color:#0f172a;font-weight:700;border-bottom:1px solid #e5e7eb;padding-bottom:6px}
+.sidebar h3:not(:first-child){margin-top:24px}
+.sidebar a{display:block;font-size:.88em;color:#0ea5e9;padding:6px 0;border-bottom:1px solid #f1f5f9}
+.sidebar a:last-child{border-bottom:none}
+.articles-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.articles-grid .card{background:#fff;border:1px solid #e5e7eb;padding:16px;border-radius:4px;transition:border-color .15s}
+.articles-grid .card:hover{border-color:#0ea5e9}
+.articles-grid .card a{font-size:1em;font-weight:600;color:#0f172a;display:block;margin-bottom:6px}
+.articles-grid .card a:hover{color:#0ea5e9;text-decoration:none}
+.articles-grid .card p{font-size:.82em;color:#64748b;margin:0;line-height:1.5}
+.section-divider{margin:32px 0 20px;border:none;border-top:1px solid #e5e7eb}
+footer.site-footer{background:#1e3a8a;color:#cbd5e1;padding:32px 28px;margin-top:48px;font-size:.85em}
+footer.site-footer .footer-inner{max-width:1080px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+footer.site-footer .brand-block strong{color:#fff;font-size:1.1em;display:block;margin-bottom:4px}
+footer.site-footer .links a{color:#cbd5e1;margin:0 12px;text-decoration:none}
+footer.site-footer .links a:hover{color:#fff;text-decoration:underline}
+footer.site-footer .copyright{border-top:1px solid #1e40af;margin-top:16px;padding-top:12px;text-align:center;color:#94a3b8;max-width:1080px;margin-left:auto;margin-right:auto}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.two-col{grid-template-columns:1fr}.articles-grid{grid-template-columns:1fr}header.site-header{padding:12px 20px}.wrap{padding:0 20px}.hero{padding:20px}}
 </style>
 </head>
 <body>
-<header>
+<header class="site-header">
 <a href="/" class="brand">{{ .Site.Title }}</a>
 <nav>
+<a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
 {{ range .Site.Menus.main }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}
 {{ with where .Site.RegularPages "Section" "blog" }}{{ if . }}<a href="/blog/">Blog</a>{{ end }}{{ end }}
 </nav>
 </header>
+<div class="wrap">
 <main>{{ block "main" . }}{{ end }}</main>
-<footer>
-<div class="footer-block">{{ range .Site.Menus.footer }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
-<div class="footer-block">{{ range .Site.Menus.legal }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
+</div>
+<footer class="site-footer">
+<div class="footer-inner">
+<div class="brand-block"><strong>{{ .Site.Title }}</strong>{{ .Site.Params.description }}</div>
+<div class="links">{{ range .Site.Menus.legal }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
+</div>
 <div class="copyright">© {{ if ne (printf "%d" .Site.Params.founded_year) (printf "%d" now.Year) }}{{ .Site.Params.founded_year }}–{{ now.Year }}{{ else }}{{ now.Year }}{{ end }} {{ .Site.Title }}</div>
 </footer>
 </body>

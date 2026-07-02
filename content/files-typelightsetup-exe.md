@@ -2,7 +2,7 @@
 title: "/files/typelightsetup.exe"
 description: "TypeLightSetup.exe is the 1.2MB installer for Type Light 3.2.051 font editor. Learn what it installs, why Windows flags it as suspicious, and how to fix common"
 url: "/files/typelightsetup.exe.html"
-date: 2026-06-30
+date: 2026-07-02
 weight: 962
 image: "/images/files-typelightsetup-exe.jpg"
 ---

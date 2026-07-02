@@ -1,15 +1,33 @@
 {{ define "main" }}
+<div class="hero">
+<div class="hero-grid">
 {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" class="hero-img">{{ end }}
+<div class="hero-content">
 <h1>{{ .Title }}</h1>
+{{ if .Description }}<p class="tagline">{{ .Description }}</p>{{ end }}
+<a href="#about" class="cta">Read more</a>
+</div>
+</div>
+</div>
+<div class="two-col">
+<article id="about">
 {{ .Content }}
+</article>
+<aside class="sidebar">
+<h3>Featured</h3>
+{{ range first 4 (where .Site.RegularPages.ByWeight "Weight" "!=" 9999) }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+</aside>
+</div>
 <hr class="section-divider">
-<h2>All Articles</h2>
-<ul class="articles-list">
-{{ range first 15 .Site.RegularPages.ByWeight }}
-<li>
+<h2>All articles</h2>
+<div class="articles-grid">
+{{ range first 10 .Site.RegularPages.ByWeight }}
+<div class="card">
 <a href="{{ .Permalink }}">{{ .Title }}</a>
 {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
-</li>
+</div>
 {{ end }}
-</ul>
+</div>
 {{ end }}
