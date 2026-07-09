@@ -2,7 +2,7 @@
 title: "/soccer/soccer-ball-photos.html"
 description: "Learn professional techniques for creating and optimizing soccer ball vector graphics, icons, and custom font glyphs for digital design projects and sports appl"
 url: "/soccer/soccer-ball-photos.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 929
 image: "/images/soccer-soccer-ball-photos.jpg"
 ---

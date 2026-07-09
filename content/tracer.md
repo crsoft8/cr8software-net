@@ -2,7 +2,7 @@
 title: "CR8tracer - Free Bitmap to Vector Conversion Tool"
 description: "CR8tracer 1.1 is a free Windows bitmap to vector converter that traces BMP, JPG, and PNG files into EPS and AI formats for logo recreation and print preparation"
 url: "/tracer.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 947
 image: "/images/tracer.jpg"
 ---

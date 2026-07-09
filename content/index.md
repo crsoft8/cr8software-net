@@ -2,7 +2,7 @@
 title: "/index.html"
 description: "Professional font editors, barcode generation tools, and bitmap-to-vector converters tested across Windows and macOS. Detailed reviews with version numbers, for"
 url: "/index.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 9999
 image: "/images/index.jpg"
 ---

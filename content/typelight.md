@@ -2,7 +2,7 @@
 title: "Type Light - Free Font Editor for Windows"
 description: "Type Light is a free TrueType font editor for Windows that handles basic glyph design, character mapping, and font metrics editing for creating custom symbol fo"
 url: "/typelight.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 908
 image: "/images/typelight.jpg"
 ---

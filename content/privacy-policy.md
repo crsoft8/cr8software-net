@@ -2,7 +2,7 @@
 title: "Privacy Policy"
 description: "Privacy policy for cr8software.net"
 slug: "privacy-policy"
-date: 2026-07-02
+date: 2026-07-09
 weight: 9999
 ---
 

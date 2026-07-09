@@ -2,7 +2,7 @@
 title: "/files/type3setup.exe"
 description: "Complete guide to type3setup.exe - the Type 3.2 font editor installer. Learn installation steps, verify file integrity, troubleshoot common issues, and understa"
 url: "/files/type3setup.exe.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 937
 image: "/images/files-type3setup-exe.jpg"
 ---

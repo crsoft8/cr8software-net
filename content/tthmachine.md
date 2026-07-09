@@ -2,7 +2,7 @@
 title: "TTHmachine - LaTeX to HTML Conversion Tool"
 description: "TTHmachine converts LaTeX documents to HTML using table-based equation rendering. Learn how this MIT-developed command-line tool handles mathematical notation,"
 url: "/tthmachine.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 930
 image: "/images/tthmachine.jpg"
 ---

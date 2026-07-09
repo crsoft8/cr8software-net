@@ -2,7 +2,7 @@
 title: "CR8 Software Solutions - Download Center"
 description: "CR8 Software Solutions provides Windows-based font editing tools and bitmap conversion utilities. Download Type 3.2, Type Light, and CR8tracer with installation"
 url: "/software.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 964
 image: "/images/software.jpg"
 ---

@@ -2,7 +2,7 @@
 title: "Bezier Curves in Font Design - Complete Guide"
 description: "Master Bezier curves in font design—learn control point placement, handle manipulation, and outline construction techniques used by professional type designers"
 url: "/article004.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 999.8
 image: "/images/article004.jpg"
 ---

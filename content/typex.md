@@ -2,7 +2,7 @@
 title: "Type Font Editor - TrueType Font Conversion"
 description: "Type font editors convert TrueType and OpenType files, extract Mac Suitcase fonts, and fix naming issues. Learn format conversion, metadata editing, and cross-p"
 url: "/typex.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 918
 image: "/images/typex.jpg"
 ---

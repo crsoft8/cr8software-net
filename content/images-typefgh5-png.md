@@ -2,7 +2,7 @@
 title: "/images/typefgh5.png"
 description: "Learn how PNG image files like typefgh5.png function in Type 3.2 font editor workflows, including proper resolutions, troubleshooting import issues, and managin"
 url: "/images/typefgh5.png.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 955
 image: "/images/images-typefgh5-png.jpg"
 ---

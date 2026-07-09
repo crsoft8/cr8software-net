@@ -2,7 +2,7 @@
 title: "/pub/russadam/gif/2dsymbolqr.gif"
 description: "Technical guide to QR code structure, encoding modes, and implementation. Learn about module patterns, error correction levels, and common generation challenges"
 url: "/pub/russadam/gif/2dsymbolqr.gif.html"
-date: 2026-07-02
+date: 2026-07-09
 weight: 970
 image: "/images/pub-russadam-gif-2dsymbolqr-gif.jpg"
 ---
