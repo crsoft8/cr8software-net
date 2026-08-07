@@ -59,7 +59,7 @@ footer.site-footer .copyright{border-top:1px solid #1e40af;margin-top:16px;paddi
 <nav>
 <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
 {{ range .Site.Menus.main }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}
-{{ with where .Site.RegularPages "Section" "insights" }}{{ if . }}<a href="/insights/">Insights</a>{{ end }}{{ end }}
+{{ with where .Site.RegularPages "Section" "blog" }}{{ if . }}<a href="/blog/">Blog</a>{{ end }}{{ end }}
 </nav>
 </header>
 <div class="wrap">
@@ -70,7 +70,6 @@ footer.site-footer .copyright{border-top:1px solid #1e40af;margin-top:16px;paddi
 <div class="brand-block"><strong>{{ .Site.Title }}</strong>{{ .Site.Params.description }}</div>
 <div class="links">{{ range .Site.Menus.legal }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}</div>
 </div>
-{{ with where .Site.RegularPages "Section" "insights" }}{{ if . }}<div class="footer-inner" style="margin-top:12px"><div class="links">{{ range first 5 .ByDate.Reverse }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</div></div>{{ end }}{{ end }}
 <div class="copyright">© {{ if ne (printf "%d" .Site.Params.founded_year) (printf "%d" now.Year) }}{{ .Site.Params.founded_year }}–{{ now.Year }}{{ else }}{{ now.Year }}{{ end }} {{ .Site.Title }}</div>
 </footer>
 </body>
