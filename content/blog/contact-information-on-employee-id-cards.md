@@ -2,7 +2,7 @@
 title: "Should You Include Contact Information on Employee ID Cards"
 description: "Learn why printing personal phone numbers on employee badges creates security risks and discover safer alternatives like department extensions, virtual numbers,"
 url: "/contact-information-on-employee-id-cards.html"
-date: 2026-08-07
+date: 2026-08-10
 weight: 9999
 image: "/images/contact-information-on-employee-id-cards.jpg"
 ---

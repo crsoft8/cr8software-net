@@ -59,7 +59,7 @@ footer.site-footer .copyright{border-top:1px solid #1e40af;margin-top:16px;paddi
 <nav>
 <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
 {{ range .Site.Menus.main }}<a href="{{ .URL | safeURL }}">{{ .Name }}</a>{{ end }}
-{{ with where .Site.RegularPages "Section" "blog" }}{{ if . }}<a href="/blog.html">Blog</a>{{ end }}{{ end }}
+{{ with where .Site.RegularPages "Section" "blog" }}{{ if . }}<a href="/blog/">Blog</a>{{ end }}{{ end }}
 </nav>
 </header>
 <div class="wrap">
