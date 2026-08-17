@@ -2,7 +2,7 @@
 title: "Font Selection for Readable ID Cards and Small Labels"
 description: "Expert guide to choosing readable fonts for ID cards and badges. Learn optimal font sizes, contrast requirements, and international character support for small-"
 url: "/font-selection-for-readable-id-cards.html"
-date: 2026-08-14
+date: 2026-08-17
 weight: 9999
 image: "/images/font-selection-for-readable-id-cards.jpg"
 ---
