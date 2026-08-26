@@ -23,7 +23,7 @@ Cost is straightforward. Entry-level virtual systems start around $15-25 per use
 
 Here's where virtual phone systems overlap with physical business operations: employee directories and ID cards. Most companies print contact information on badges—email addresses, desk extensions, mobile numbers. With virtual systems, those numbers become fluid rather than fixed.
 
-When you set up an <a href="https://esimplus.me" rel="follow">eSIM Plus</a>  online number for business use, you assign it to an employee's account, not a physical device. If someone moves from the shipping department (handling barcode equipment checkout) to the front desk (managing visitor badge printing), their business number stays the same. The ID card doesn't need reprinting because the extension isn't tied to a location.
+When you set up an <a href="https://esimplus.me">eSIM Plus</a>  online number for business use, you assign it to an employee's account, not a physical device. If someone moves from the shipping department (handling barcode equipment checkout) to the front desk (managing visitor badge printing), their business number stays the same. The ID card doesn't need reprinting because the extension isn't tied to a location.
 
 This solves a real workflow problem. Traditional phone systems meant badge reprints every time someone changed desks or roles. With virtual numbers, you update the routing rules in the admin portal—takes maybe 90 seconds—and the physical badge remains accurate.
 
