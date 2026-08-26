@@ -7,8 +7,6 @@ weight: 9999
 image: "/images/id-card-printer-setup-for-new-businesses.jpg"
 ---
 
-# How to Set Up an ID Card Printer System for Small Businesses
-
 Setting up an ID card printer system for your small business comes down to three core decisions: selecting a printer that matches your monthly volume (typically 50-500 cards for most startups), choosing between direct-to-card or retransfer printing technology, and integrating your badge design software with your access control hardware. Most businesses with under 25 employees do well with a single-sided direct-to-card printer like the Fargo DTC1250e or Evolis Primacy, paired with badge design software that exports to standard formats your access readers can parse.
 
 ## Choosing the Right ID Card Printer for Your Business Size
