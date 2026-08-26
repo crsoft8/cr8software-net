@@ -17,34 +17,44 @@ uglyURLs = true
   priority = 0.5
 
 [[menu.main]]
-  name = "TTHmachine Converter"
-  url = "/tthmachine.html"
+  name = "Type Light Font Editor"
+  url = "/typelight.html"
   weight = 10
 
 [[menu.main]]
-  name = "unknown"
-  url = "/soccer/soccer-ball-photos.html"
+  name = "Type Font Editor"
+  url = "/type.html"
   weight = 20
+
+[[menu.main]]
+  name = "Type Font Editor"
+  url = "/typex.html"
+  weight = 30
 
 [[menu.main]]
   name = "TTHmachine Converter"
   url = "/tthmachine.html"
-  weight = 30
-
-[[menu.main]]
-  name = "unknown"
-  url = "/soccer/soccer-ball-photos.html"
   weight = 40
 
 [[menu.footer]]
   name = "unknown"
-  url = "/files/type3setup.exe.html"
+  url = "/soccer/soccer-ball-photos.html"
   weight = 10
 
 [[menu.footer]]
   name = "unknown"
   url = "/files/type3setup.exe.html"
   weight = 20
+
+[[menu.footer]]
+  name = "CR8tracer Bitmap Tracing"
+  url = "/tracer.html"
+  weight = 30
+
+[[menu.footer]]
+  name = "unknown"
+  url = "/images/typefgh5.png.html"
+  weight = 40
 
 [[menu.legal]]
   name = "About"
