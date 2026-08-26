@@ -2,7 +2,7 @@
 title: "Security Badge and Access Control System Integration"
 description: "Learn how to integrate ID badge printers with access control systems. Covers RFID encoding, permission programming, time tracking integration, and troubleshooti"
 url: "/security-badge-access-control-integration.html"
-date: 2026-08-20
+date: 2026-08-26
 weight: 9999
 image: "/images/security-badge-access-control-integration.jpg"
 ---
