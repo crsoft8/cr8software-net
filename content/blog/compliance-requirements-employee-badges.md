@@ -2,7 +2,7 @@
 title: "Compliance Requirements for Employee Badges in Regulated Industries"
 description: "Complete compliance guide for employee ID badges in healthcare, finance, and government contracting. Learn HIPAA, FINRA, HSPD-12 requirements, state badge laws,"
 url: "/compliance-requirements-employee-badges.html"
-date: 2026-08-29
+date: 2026-09-01
 weight: 9999
 image: "/images/compliance-requirements-employee-badges.jpg"
 ---

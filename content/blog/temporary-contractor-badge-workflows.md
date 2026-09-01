@@ -2,7 +2,7 @@
 title: "Temporary Contractor Badge Workflows and Management"
 description: "Learn how to manage temporary contractor badges with automated expiration, visual differentiation, deposit systems, and access control integration that prevents"
 url: "/temporary-contractor-badge-workflows.html"
-date: 2026-08-29
+date: 2026-09-01
 weight: 9999
 image: "/images/temporary-contractor-badge-workflows.jpg"
 ---
