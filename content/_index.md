@@ -31,7 +31,7 @@ Format considerations: SVG for web use, EPS for Adobe workflows, PDF for print s
 
 ## Specialized Utilities: Barcode Generators and Format Converters
 
-Design workflows depend on dozens of small utilities that solve specific problems. Barcode generation is a common need — creating Code 128, EAN-13, or QR codes for product packaging, tickets, or inventory systems. Desktop generators handle this without <a href="https://www.gs1.org/standards/barcodes" rel="nofollow">GS1 licensing complexity</a>, letting you embed barcodes directly into InDesign or Illustrator layouts.
+Design workflows depend on dozens of small utilities that solve specific problems. Barcode generation is a common need — creating Code 128, EAN-13, or QR codes for product packaging, tickets, or inventory systems. Desktop generators handle this without <a href="https://www.gs1.org/standards/barcodes" rel="nofollow">GS1 licensing complexity</a>, letting you embed barcodes directly into InDesign or Illustrator layouts. Teams running these production workflows hit a related problem — keeping client calls off personal mobiles — which is what [virtual phone systems for small business teams](/virtual-phone-systems-for-small-business-teams.html) solve.
 
 LaTeX users working with academic publishing face format conversion headaches. Tools like [TTHmachine](/tthmachine.html) convert TeX mathematical notation into HTML for web documentation — essential when your department requires both PDF proceedings and website archives from the same source files.
 
