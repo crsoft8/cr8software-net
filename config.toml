@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Cr8software"
 theme = "almanac"
 uglyURLs = true
+enableGitInfo = true
 
 [params]
   description = "A niche software website focused on barcode tools, ID card printing software, font editing, and practical desktop applications for business and technical use."
@@ -13,7 +14,7 @@ uglyURLs = true
   unsafe = true
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   priority = 0.5
 
 [[menu.main]]
