@@ -2,7 +2,7 @@
 title: "Essential Communication Infrastructure for Small Business Office Setup"
 description: "Small business office setup guide for coordinating phone systems, employee ID cards, and contact directories. Compare PBX vs VoIP vs virtual numbers with real b"
 url: "/small-business-communication-infrastructure-office-setup.html"
-date: 2026-09-03
+date: 2026-09-04
 weight: 9999
 image: "/images/small-business-communication-infrastructure-office-setup.jpg"
 ---

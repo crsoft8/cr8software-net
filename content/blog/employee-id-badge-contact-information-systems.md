@@ -2,7 +2,7 @@
 title: "Adding Contact Information to Employee ID Badges: Phone Numbers and Communication Channels"
 description: "Learn how to add contact information to employee badges effectively. Compare direct lines, extensions, and virtual numbers with practical design tips and privac"
 url: "/employee-id-badge-contact-information-systems.html"
-date: 2026-09-03
+date: 2026-09-04
 weight: 9999
 image: "/images/employee-id-badge-contact-information-systems.jpg"
 ---

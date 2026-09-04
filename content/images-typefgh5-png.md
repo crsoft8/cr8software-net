@@ -7,6 +7,8 @@ weight: 955
 image: "/images/images-typefgh5-png.jpg"
 ---
 
+# Understanding Font Editor File Formats and Type 3.2 Image Assets
+
 When you encounter a file like `typefgh5.png` in your font editor workflow, it's typically a screenshot, UI element, or glyph reference image used during font development—not an executable or font file itself. In Type 3.2, your font editor, PNG files serve as reference materials for tracing, design comparison, or documentation of your font creation process. Unlike TTF or OTF files that contain actual font data, these image assets help visualize character designs before they're converted into vector outlines.
 
 ## What PNG Files Do in Professional Font Editing
