@@ -2,7 +2,7 @@
 title: "Disclaimer"
 description: "Disclaimer for cr8software.net"
 slug: "disclaimer"
-date: 2026-10-10
+date: 2026-10-13
 weight: 9999
 ---
 
